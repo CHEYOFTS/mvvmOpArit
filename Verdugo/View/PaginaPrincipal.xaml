@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Verdugo.View.PaginaPrincipal">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Operaciones Basicas" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+            <Entry x:Name="num1" Placeholder=" Numero 1"/>
+            <Entry x:Name="num2" Placeholder=" Numero 2"/>
+            <Entry x:Name="num3" Placeholder=" Numero 3"/>
+            <Button x:Name="Calcular" Text="Calcular" Clicked="Calcular_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
